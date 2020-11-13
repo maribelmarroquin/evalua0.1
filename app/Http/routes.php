@@ -10,7 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
  */
-Route::resource('pruebas', 'QueryAlumnoController');
+/*Route::resource('pruebas', 'QueryAlumnoController');*/
 
 /*--------------------------------------------------*/
 
@@ -44,9 +44,6 @@ Route::group(['prefix' => 'maestros00001'], function () {
 	Route::resource('generaRel', 'ControlMaestro\EvaRelController');
 	Route::resource('alumnos', 'ControlMaestro\AlumnosMController');
 	Route::resource('cambio', 'ControlMaestro\CambioConMController');
-
-	// Password reset link request routes...
-
 });
 /* Fin de Rutas para Usuario MAESTRO */
 
